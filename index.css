@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root {
+    --primary-color: #00a9ff;
+    --secondary-color: #89cff3;
+    --ternary-color: #a0e9ff;
+    --bg-color: #adbbff24;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 0;
+  }
+  body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: poppins;
+  }
+ table,tr,td{
+  border: solid 2px;
+  border-collapse: collapse;
+  height: 70px;
+  width: 900px;
+  font-size: 20px;
+  text-align: center;
+  border-color: white;
+  background-color: var(--bg-color);
+ }
+ h1{
+  padding-top: 30px;
+  padding-bottom: 25px;
+  font-weight: lighter;
+  color: gray;
+ }
+table{
+  border-radius: 20px ;
+}
+ .jours{
+  width: 50px;
+  background-color: var(--primary-color);
+  color: white;
+ }
+.heure{
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
