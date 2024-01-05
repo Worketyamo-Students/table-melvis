@@ -1,11 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ /* creation des variables */
 :root {
     --primary-color: #00a9ff;
     --secondary-color: #89cff3;
     --ternary-color: #a0e9ff;
     --bg-color: #adbbff24;
   }
+  /* creation du selecteur universel*/
   *{
     padding: 0;
     margin: 0;
